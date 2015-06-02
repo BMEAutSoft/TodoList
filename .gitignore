@@ -6,3 +6,10 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
+.sonar/.sonartmp/caches/persistit_tempvol_1762265792045368513.tmp
+out/production/main/hu/cegnev/todolistapp/Main.class
+out/production/main/hu/cegnev/todolistapp/business/TodoLogic.class
+out/production/main/hu/cegnev/todolistapp/model/Todo.class
+out/test/test/hu/cegnev/todolistapp/business/TodoLogicTest.class
+src/main/main.iml
+src/test/test.iml
