@@ -34,7 +34,7 @@ public class TodoLogicTest {
     public void testGetAvailableTodos() {
         Todo todo = new Todo(1, "title", "description", new DateTime());
         todoLogic.add(todo);
-        assertEquals(0, todoLogic.getAvailableItemsWithModifiedMethodName().size());
+        assertEquals(0, todoLogic.getAvailableItems().size());
     }
 
     @Test
