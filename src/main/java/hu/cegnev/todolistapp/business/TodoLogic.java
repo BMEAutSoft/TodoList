@@ -57,7 +57,7 @@ public class TodoLogic {
      * This function returns all the to dos they have a deadline that is after the current time.
      * @return the available to dos
      */
-    public List<Todo> getAvailableItems(){
+    public List<Todo> getAvailableItemsWithModifiedMethodName(){
         List<Todo> availableTodos = new ArrayList<>();
         for(Todo todo: itemList){
             if(todo.getDeadLine().isAfter(new DateTime().getMillis())){
